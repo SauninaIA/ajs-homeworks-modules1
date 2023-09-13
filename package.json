@@ -1,0 +1,31 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SauninaIA/ajs-homeworks-modules.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Irina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SauninaIA/ajs-homeworks-modules/issues"
+  },
+  "homepage": "https://github.com/SauninaIA/ajs-homeworks-modules#readme",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
